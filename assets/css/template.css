@@ -1,0 +1,93 @@
+body {
+    background-color: #7A8B8B;
+}
+.principal {
+    text-align: center;
+    color: white;
+    line-height: 10px;
+}
+.title {
+    font-size: 70px;
+    margin-top: 80px;
+}
+.subtitle {
+    font-size: 30px;
+    margin-top: 0;
+    font-style: italic;
+    color: #2F4F4F;
+}
+img {
+    width: 650px;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_capition {
+    font-style: italic;
+    padding-bottom: 20px;
+    color: #ccc;
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.timeline,
+.text_information {
+    background-color: #4F4F4F;
+}
+.subsection_timeline {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 4px solid #008B8B;
+}
+.text_information {
+    font-size: 17px;
+    color: #ccc;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 40px;
+}
+
+.img_books {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#img_peregrino img {
+    padding-left: 20px;
+    width: 245px;
+}
+#img_narnia img {
+    width: 250px;
+}
+#img_cristianismo img {
+    width: 253px;
+}
+blockquote {
+    background-color: #4F4F4F;
+    color: white;
+    padding: 2% 5%;
+    border-radius: 70px 35px 70px 35px;
+    line-height: 25px;
+    margin-top: 70px;
+}
+
+#tribute_link a {
+    color: black;
+}
+#tribute_link a:hover, p {
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
